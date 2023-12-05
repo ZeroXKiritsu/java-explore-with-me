@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EWMStatServiceApp {
+public class EwmStatServiceApp {
     public static void main(String[] args) {
-        SpringApplication.run(EWMStatServiceApp.class, args);
+        SpringApplication.run(EwmStatServiceApp.class, args);
     }
 }

@@ -38,7 +38,7 @@ public class StatsController {
         if (uris == null) {
             uris = Collections.emptyList();
         }
-        List<ViewStats> results = service.getViewStatsList(
+        return service.getViewStatsList(
                 ViewsStatsRequest.builder()
                         .start(start)
                         .end(end)
@@ -46,6 +46,5 @@ public class StatsController {
                         .unique(unique)
                         .build()
         );
-        return results;
     }
 }
